@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&section=header&text=Hi%20There!%20I'm%20Rashaad&fontSize=38&fontColor=ffffff&animation=fadeIn" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Machine+Learning+Enthusiast+%F0%9F%A4%96;Currently+Learning+Python+%F0%9F%90%8D;Open+to+Collaborating+on+ML+Projects" alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/rash-aad/rash-aad/main/assets/terminal-hero.svg" alt="terminal boot sequence rendering an ASCII portrait" width="100%" />
 
 </div>
 
