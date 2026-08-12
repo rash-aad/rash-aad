@@ -23,12 +23,12 @@
     </linearGradient>
     <clipPath id="revealClip">
       <rect x="0" y="0" width="910.0" height="0">
-        <animate attributeName="height" from="0" to="1001.0" begin="1.40s" dur="2.4s" fill="freeze" calcMode="spline" keySplines="0.22 0.1 0.2 1"/>
+        <animate attributeName="height" values="0;1001.0" keyTimes="0;1" begin="1.40s" dur="2.4s" fill="freeze" calcMode="spline" keySplines="0.22 0.1 0.2 1"/>
       </rect>
     </clipPath>
     <clipPath id="promptClip">
       <rect x="0" y="0" width="0" height="20">
-        <animate attributeName="width" from="0" to="231.0" begin="0.35s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+        <animate attributeName="width" values="0;231.0" keyTimes="0;1" begin="0.35s" dur="0.9s" fill="freeze" calcMode="linear"/>
       </rect>
     </clipPath>
   </defs>
@@ -47,7 +47,7 @@
   <!-- prompt line -->
   <g transform="translate(26.0, 54.0)" filter="url(#glow)">
     <g clip-path="url(#promptClip)">
-      <text xml:space="preserve" x="0" y="0" fill="#ffb020" font-size="13">rash-aad@github:~$ cat avatar.ascii</text>
+      <text xml:space="preserve" x="0" y="0" fill="#ffb020" font-size="13" textLength="231.0" lengthAdjust="spacing">rash-aad@github:~$ cat avatar.ascii</text>
     </g>
     <rect x="231.0" y="-11" width="7" height="14" fill="#ffb020" opacity="0">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" begin="1.25s" dur="1s" repeatCount="indefinite"/>
@@ -136,8 +136,8 @@
       <text xml:space="preserve" x="0" y="998.66" textLength="910.0" lengthAdjust="spacing">qdpdhkk*M######oooMBb&lt;.'...'`.`tbMW&amp;&amp;%8$o.                        ':``..                        .'`^`')odkkdqwmmpdbppwqqpbhkboaa#***bqpka#W*</text>
     </g>
     <rect x="0" y="0" width="910.0" height="3" fill="#ffb020" filter="url(#scanGlow)" opacity="0.9">
-      <animate attributeName="y" from="0" to="1001.0" begin="1.40s" dur="2.4s" fill="freeze" calcMode="spline" keySplines="0.22 0.1 0.2 1"/>
-      <animate attributeName="opacity" from="0.9" to="0" begin="3.65s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="y" values="0;1001.0" keyTimes="0;1" begin="1.40s" dur="2.4s" fill="freeze" calcMode="spline" keySplines="0.22 0.1 0.2 1"/>
+      <animate attributeName="opacity" values="0.9;0" keyTimes="0;1" begin="3.65s" dur="0.3s" fill="freeze" calcMode="linear"/>
     </rect>
     <rect x="0" y="0" width="910.0" height="1001.0" fill="url(#vignette)" opacity="0.5"/>
   </g>
@@ -147,22 +147,22 @@
     
       <clipPath id="outClip0">
         <rect x="0" y="4.0" width="0" height="18">
-          <animate attributeName="width" from="0" to="52.8" begin="4.00s" dur="0.45s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <animate attributeName="width" values="0;52.8" keyTimes="0;1" begin="4.00s" dur="0.45s" fill="freeze" calcMode="linear"/>
         </rect>
       </clipPath>
-      <text xml:space="preserve" x="0" y="18.0" fill="#ffb020" font-size="12.5" clip-path="url(#outClip0)">$ whoami</text>
+      <text xml:space="preserve" x="0" y="18.0" fill="#ffb020" font-size="12.5" textLength="52.8" lengthAdjust="spacing" clip-path="url(#outClip0)">$ whoami</text>
       <clipPath id="outClip1">
         <rect x="0" y="25.0" width="0" height="18">
-          <animate attributeName="width" from="0" to="66.0" begin="4.80s" dur="0.45s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <animate attributeName="width" values="0;66.0" keyTimes="0;1" begin="4.80s" dur="0.45s" fill="freeze" calcMode="linear"/>
         </rect>
       </clipPath>
-      <text xml:space="preserve" x="0" y="39.0" fill="#ffe6b8" font-size="12.5" clip-path="url(#outClip1)">&gt; rash-aad</text>
+      <text xml:space="preserve" x="0" y="39.0" fill="#ffe6b8" font-size="12.5" textLength="66.0" lengthAdjust="spacing" clip-path="url(#outClip1)">&gt; rash-aad</text>
       <clipPath id="outClip2">
         <rect x="0" y="46.0" width="0" height="18">
-          <animate attributeName="width" from="0" to="85.8" begin="5.60s" dur="0.45s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/>
+          <animate attributeName="width" values="0;85.8" keyTimes="0;1" begin="5.60s" dur="0.45s" fill="freeze" calcMode="linear"/>
         </rect>
       </clipPath>
-      <text xml:space="preserve" x="0" y="60.0" fill="#ffe6b8" font-size="12.5" clip-path="url(#outClip2)">&gt; ml · python</text>
+      <text xml:space="preserve" x="0" y="60.0" fill="#ffe6b8" font-size="12.5" textLength="85.8" lengthAdjust="spacing" clip-path="url(#outClip2)">&gt; ml · python</text>
     <rect x="89.8" y="49.0" width="7" height="14" fill="#ffb020" opacity="0">
       <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.001;0.5;0.5;1" begin="6.05s" dur="1s" repeatCount="indefinite"/>
     </rect>
