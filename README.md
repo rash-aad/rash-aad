@@ -6,9 +6,12 @@
 
 ### 👋 About Me
 
-- 👀 I'm interested in **Machine Learning**
-- 🌱 I'm currently learning **Python**
-- 💞️ I'm looking to collaborate on **model-based projects**
+AI/ML engineer who ships production machine-learning and LLM-automation systems end-to-end, from prototype through deployed, monitored production. Integrates LLMs into agentic workflows and internal tooling, fine-tunes open-weight models (LoRA/QLoRA), and builds computer-vision pipelines with PyTorch and OpenCV. Comfortable owning the full stack — API design, data pipelines/integrations, model work, and UI — as one of the first engineers on a small team. Two peer-reviewed publications on LLM fine-tuning and applied NLP.
+
+- 🧠 **LLMs & Agentic Systems** — RAG, LangChain, multi-agent orchestration, prompt engineering
+- 🎛️ **Fine-tuning** — LoRA / QLoRA on open-weight models
+- 👁️ **Computer Vision** — PyTorch, TensorFlow, OpenCV, Hugging Face Transformers
+- 🗄️ **Data & Backend** — FastAPI, PostgreSQL, MongoDB, Spark, Docker, AWS
 - 📫 Reach me at **rashaadnmohammed@gmail.com**
 
 <br>
@@ -28,9 +31,7 @@
 
 ### 🛠️ Tools & Tech
 
-<img src="https://skillicons.dev/icons?i=python,git,github,vscode,jupyter&theme=dark" />
-
-<sub>(swap these for whatever you actually use — see icon list at skillicons.dev)</sub>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,js,ts,fastapi,postgres,mongodb,docker,aws,linux,git,github&theme=dark" />
 
 </div>
 
